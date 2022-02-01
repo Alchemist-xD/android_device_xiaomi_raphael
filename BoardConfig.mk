@@ -68,7 +68,7 @@ TARGET_HAS_HDR_DISPLAY := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
 # Debug
-ifneq ($(CIPHER_OFFICIAL), true)
+ifneq ($(ARCANA_OFFICIAL), true)
 TARGET_FORCE_RO_DEBUGGABLE := true
 endif
 
