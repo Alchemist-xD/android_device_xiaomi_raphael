@@ -154,7 +154,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
-ifeq ($(CIPHER_GAPPS), true)
+ifeq ($(WITH_GAPPS), true)
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 else
