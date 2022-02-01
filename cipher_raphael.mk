@@ -12,11 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Cipher stuff.
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
-
-# Cipher Flags
-CIPHER_MAINTAINER := Alchemist
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cipher_raphael
@@ -24,6 +21,10 @@ PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+
+#Arcane Flags
+ARCANA_DEVICE := raphael
+ARCANA_MAINTAINER := Alchemist
 
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
