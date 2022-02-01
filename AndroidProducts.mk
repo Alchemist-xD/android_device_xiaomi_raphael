@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_raphael.mk
+    $(LOCAL_DIR)/aosp_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_raphael-user \
-    cipher_raphael-userdebug \
-    cipher_raphael-eng
+    aosp_raphael-user \
+    aosp_raphael-userdebug \
+    aosp_raphael-eng
