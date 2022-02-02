@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_raphael.mk
+    $(LOCAL_DIR)/radiant_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_raphael-user \
-    cipher_raphael-userdebug \
-    cipher_raphael-eng
+    radiant_raphael-user \
+    radiant_raphael-userdebug \
+    radiant_raphael-eng
