@@ -1,9 +1,6 @@
 # Camera
 persist.vendor.camera.privapp.list=com.android.camera
 
-# CipherOS
-ro.cipher.maintainer=Alchemist
-
 # Display
 debug.sf.disable_backpressure=1
 
