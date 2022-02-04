@@ -1,2 +1,2 @@
-hal_attribute_lineage(mlipay)
-hal_attribute_lineage(motor)
+hal_attribute_aosp(mlipay)
+hal_attribute_aosp(motor)
